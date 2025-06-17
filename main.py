@@ -8,7 +8,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def ask_gpt(message):
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",  # Switch to gpt-4-turbo when you have access
+        model="gpt-4-turbo",
         messages=[
             {
                 "role": "system",
