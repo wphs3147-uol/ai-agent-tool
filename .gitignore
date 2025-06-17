@@ -2,3 +2,15 @@
 __pycache__/
 venv/
 *.pyc
+
+# Ignore screenshots
+briefing_*.png
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore environment variables
+.env
+
+# macOS system files
+.DS_Store
