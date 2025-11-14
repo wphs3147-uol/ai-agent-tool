@@ -1,16 +1,13 @@
-.env
+# Python stuff
 __pycache__/
-venv/
 *.pyc
-
-# Ignore screenshots
-briefing_*.png
-
-# Ignore Python virtual environment
 venv/
 
-# Ignore environment variables
+# Environment & API keys
 .env
 
-# macOS system files
-.DS_Store
+# Screenshots and user data
+*.png
+*.jpg
+*.jpeg
+briefing_screen.png
