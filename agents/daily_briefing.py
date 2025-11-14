@@ -29,12 +29,12 @@ def summarize_text(text):
     if not text.strip():
         return "[WARNING] No text detected."
 
-    print("[DEBUG] Sending extracted text to GPT for summarization...")
+    print("[DEBUG] Sending extracted text to GPT for summarisation...")
     response = client.chat.completions.create(
         model="gpt-4",
         messages=[
-            {"role": "system", "content": "You summarize WhatsApp, iMessage and Outlook messages."},
-            {"role": "user", "content": f"Summarize these:\n\n{text}"}
+            {"role": "system", "content": "You summarise WhatsApp, iMessage and Outlook messages."},
+            {"role": "user", "content": f"Summarise these:\n\n{text}"}
         ]
     )
     return response.choices[0].message.content.strip()

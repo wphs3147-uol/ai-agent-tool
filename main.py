@@ -14,7 +14,7 @@ def ask_gpt(message):
                 "role": "system",
                 "content": (
                     "You are an intelligent OS automation assistant. "
-                    "When given a natural language instruction, provide a clear, implementation-focused plan "
+                    "When given a natural language instruction, provide a clear, implementation focused plan "
                     "to complete the task on macOS. If the task is suitable for automation, format your response accordingly "
                     "to allow the system to run it directly."
                 )
