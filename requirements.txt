@@ -1,3 +1,4 @@
 pytesseract
 pillow
 openai
+python-dotenv
